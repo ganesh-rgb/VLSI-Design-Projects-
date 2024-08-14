@@ -1,23 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: IIT ROARPAR
-// Engineer: ASIC VERIFICATION TRAINEE ENGINEER
-// 
-// Create Date: 14.08.2024 08:53:29
-// Design Name: 
-// Module Name: 
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 module half_sub (Diff, Bout, X, Y);
 
