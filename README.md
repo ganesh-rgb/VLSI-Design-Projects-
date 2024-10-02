@@ -51,10 +51,8 @@ Floorplan determines the size of the chip, places the gates and connects them wi
 
 A good floor planning exercise should come across and take care of the below points; otherwise, the life of IC and its cost will blow out
 
-•	Minimize the total chip area                                                                                               
-•	Make routing phase easy(routable)
-
-•	Improve signal delays
+•	Minimize the total chip area                                                                                              •	Make routing phase easy(routable)     
+•	Improve signal delays  
 
 ###### 7)Placement
 Placement is the process of placing standard cells in ow. A poor placement requires larger area and also degrades performance. Various factors like the timing requirement, the net lengths and hence the connections of cells, power dissipations should be taken care. It removes timing violation.
