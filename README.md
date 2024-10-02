@@ -51,8 +51,9 @@ Floorplan determines the size of the chip, places the gates and connects them wi
 
 A good floor planning exercise should come across and take care of the below points; otherwise, the life of IC and its cost will blow out
 
-•	Minimize the total chip area
-•	Make routing phase easy(routable)]
+•	Minimize the total chip area                                                                                               
+•	Make routing phase easy(routable)
+
 •	Improve signal delays
 
 ###### 7)Placement
