@@ -78,7 +78,7 @@ After routing, ASIC design layout undergoes three steps of physical verification
 2)Design rule checks(DRC)  is the process of checking that the geometry in the GDS file follows the rules given by the foundry.
 3)Logical Equivalence Check(LVC): is a process of equivalence check between pre and post design layout.
 
-###### 11) GDS-II Graphical Data stream information interchange
+###### 11) GDSII Graphical Data stream information interchange
 In the last stage of the tape out, the engineer performs wafer processing, packaging, testing verification and delivery to the physical IC. GDSII is the file produced and used by the semiconductor foundries to fabricate the silicon and handled to client.
 
 
