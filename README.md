@@ -53,7 +53,7 @@ A good floor planning exercise should come across and take care of the below poi
 •	Minimize the total chip area
 •	Make routing phase easy(routable)]
 •	Improve signal delays
-#### 7)Placement
+###### 7)Placement
 Placement is the process of placing standard cells in ow. A poor placement requires larger area and also degrades performance. Various factors like the timing requirement, the net lengths and hence the connections of cells, power dissipations should be taken care. It removes timing violation.
 ###### 8) Clock Tree Synthesis:
 Clock tree synthesis is a process of building the clock tree and meeting the defined timing ,area and power requirements. It helps in providing the clock connection to the clock pin of a sequential element in the required time and area, with low power consumption.
