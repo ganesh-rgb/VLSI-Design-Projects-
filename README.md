@@ -49,10 +49,12 @@ ASIC design is complex enough at different stages of the design cycle. Telling t
 
 Floorplan determines the size of the chip, places the gates and connects them with wires. While connecting, engineers take care of the wire length, and functionality which will ensure signals will not interfere with	near by elements. In the end, simulate the final floor plan with post-layout verification process.
 
-A good floor planning exercise should come across and take care of the below points; otherwise, the life of IC and its cost will blow out;
+A good floor planning exercise should come across and take care of the below points; otherwise, the life of IC and its cost will blow out
+
 •	Minimize the total chip area
 •	Make routing phase easy(routable)]
 •	Improve signal delays
+
 ###### 7)Placement
 Placement is the process of placing standard cells in ow. A poor placement requires larger area and also degrades performance. Various factors like the timing requirement, the net lengths and hence the connections of cells, power dissipations should be taken care. It removes timing violation.
 ###### 8) Clock Tree Synthesis:
