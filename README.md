@@ -45,7 +45,7 @@ ASIC design is complex enough at different stages of the design cycle. Telling t
 
 ###### 6)Floor Planning(Blueprint of chip):
 
- After DFT, the physica implementation process is to be followed. In physical design, the first step in  RTL-to-GDS-II is floor planning. It is the process of placing blocks in the chip. It includes: block placement, design portioning, pin placement, and power optimization.
+ After DFT, the physical implementation process is to be followed. In physical design, the first step in  RTL-to-GDS-II is floor planning. It is the process of placing blocks in the chip. It includes: block placement, design portioning, pin placement, and power optimization.
 
 Floorplan determines the size of the chip, places the gates and connects them with wires. While connecting, engineers take care of the wire length, and functionality which will ensure signals will not interfere with	near by elements. In the end, simulate the final floor plan with post-layout verification process.
 
