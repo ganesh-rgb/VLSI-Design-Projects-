@@ -2,8 +2,9 @@ ASIC DESIGN FLOW
 
 
 
-<img src = "https://drive.google.com/file/d/1Xqve1NpeARllZkAo9B23l7xlJ78Ip4-X/view">
- 
+
+ ![Picture4](https://github.com/user-attachments/assets/8d6c43c5-673b-46be-892e-80b92a47ba92)
+
 
 ##1)	Chip Specification:
 It is the initial stage of the chip, where the engineer should read the specifications with design guidelines of ASIC and define the features, microarchitecture, functionalities of  whole system.
@@ -20,7 +21,8 @@ Timing simulation tools: These tools are used to verifies whether the design mee
 
 ####3)	RTL Synthesis/ RTL Function:
 
- <img src = "https://drive.google.com/file/d/1jScO5kVYxkYLmMC0PE8-l8RpgTQc9e9J/view">
+ ![Picture3](https://github.com/user-attachments/assets/a800ad9e-35f7-4285-92bf-3dfd858e6654)
+
 Once the RTL code and Test bench are generated , the RTL engineer works n RTL Description -  they translate the RTL code into a gate level  netlist using  a logical synthesis tool  that meets required timing constraints. Thereafter, a synthesized database of the ASIC design is created in the system. When timing constraints are met with the logic synthesis, the design proceeds to the DFT techniques.
 #####4)	Chip Partitioning
 
