@@ -75,7 +75,9 @@ As we are moving towards a lower technology node, engineers face complex design 
 After routing, ASIC design layout undergoes three steps of physical verification, known as sign off checks. This stage helps to check whether  the layout working the way it was designed to. The following  checks are followed to avoid any errors just before the tape out.
 
 1)Layout Versus Schematic(LVS): is a process of checking hat the geometry/layout matches the schematic /netlist.
+
 2)Design rule checks(DRC)  is the process of checking that the geometry in the GDS file follows the rules given by the foundry.
+
 3)Logical Equivalence Check(LVC): is a process of equivalence check between pre and post design layout.
 
 ###### 11) GDSII Graphical Data stream information interchange
