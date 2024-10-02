@@ -1,8 +1,8 @@
-                      #ASIC DESIGN FLOW
+ASIC DESIGN FLOW
 
 
 
-![alt text](C:\Users\HP\Downloads\Picture4.png)
+<img src = "C:\Users\HP\Downloads\Picture4.png">
  
 
 ##1)	Chip Specification:
@@ -20,7 +20,7 @@ Timing simulation tools: These tools are used to verifies whether the design mee
 
 ####3)	RTL Synthesis/ RTL Function:
 
- ![alt text](C:\Users\HP\OneDrive\Pictures\Picture2.png)
+ <img src = "C:\Users\HP\OneDrive\Pictures\Picture2.png">
 Once the RTL code and Test bench are generated , the RTL engineer works n RTL Description -  they translate the RTL code into a gate level  netlist using  a logical synthesis tool  that meets required timing constraints. Thereafter, a synthesized database of the ASIC design is created in the system. When timing constraints are met with the logic synthesis, the design proceeds to the DFT techniques.
 #####4)	Chip Partitioning
 
