@@ -58,12 +58,15 @@ A good floor planning exercise should come across and take care of the below poi
 Placement is the process of placing standard cells in ow. A poor placement requires larger area and also degrades performance. Various factors like the timing requirement, the net lengths and hence the connections of cells, power dissipations should be taken care. It removes timing violation.
 ###### 8) Clock Tree Synthesis:
 Clock tree synthesis is a process of building the clock tree and meeting the defined timing ,area and power requirements. It helps in providing the clock connection to the clock pin of a sequential element in the required time and area, with low power consumption.
-To avoid high power consumption, increase in delays and a huge number of transitions, certain structures can be used for optimizing CTS structures such as 
-•	Mesh
-•	H-Tree
-•	X-Tree
-•	Fishbone
-•	Hybrid
+To avoid high power consumption, increase in delays and a huge number of transitions, certain structures can be used for optimizing CTS structures such as
+
+
+•	Mesh 
+•	H-Tree 
+•	X-Tree 
+•	Fishbone 
+•	Hybrid 
+
 With the help of these structures, each flop in the clock tree gets the clock connection. During the optimization, tools insert the buffer to build the CTS structure. Different clock structures will build the clock tree with a minimum buffer insertion and lower power consumption of chips.
 
 ###### 9)Routing:
