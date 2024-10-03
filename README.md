@@ -31,7 +31,7 @@ At this stage, engineers adhere to the ASIC Design Layout requirements and speci
 After comprehending the design specifications, engineers divide the entire ASIC into multiple functional blocks, considering optimal performance, technical feasibility, and resource allocation in terms of area, power, cost, and time. Once all functional blocks are documented in the architectural plan, engineers need to brainstorm ASIC design partitioning by reusing IPs from previous projects and sourcing them from other parties.
 
 
-###### 5)	DFT insertion:
+**5)	DFT insertion:**
 
 With the ongoing trend of lower technology nodes, there is an increase in SOC variations like size, threshold voltage and wire resistance, Due to these factors, new models and techniques are introduced to high-quality testing.
 
@@ -43,7 +43,7 @@ ASIC design is complex enough at different stages of the design cycle. Telling t
 
 •	APTG(Automatic Test Pattern Generation): APTG is a method of creating test vector/sequential input patterns to check the design for faults generated within various elements of circuit.
 
-###### 6)Floor Planning(Blueprint of chip):
+**6)Floor Planning(Blueprint of chip):**
 
  After DFT, the physical implementation process is to be followed. In physical design, the first step in  RTL-to-GDS-II is floor planning. It is the process of placing blocks in the chip. It includes: block placement, design portioning, pin placement, and power optimization.
 
