@@ -54,9 +54,9 @@ A good floor planning exercise should come across and take care of the below poi
 •	Minimize the total chip area                                                                                              •	Make routing phase easy(routable)     
 •	Improve signal delays  
 
-###### 7)Placement
+ **7)Placement**
 Placement is the process of placing standard cells in ow. A poor placement requires larger area and also degrades performance. Various factors like the timing requirement, the net lengths and hence the connections of cells, power dissipations should be taken care. It removes timing violation.
-###### 8) Clock Tree Synthesis:
+**8) Clock Tree Synthesis:**
 Clock tree synthesis is a process of building the clock tree and meeting the defined timing ,area and power requirements. It helps in providing the clock connection to the clock pin of a sequential element in the required time and area, with low power consumption.
 To avoid high power consumption, increase in delays and a huge number of transitions, certain structures can be used for optimizing CTS structures such as
 
@@ -69,13 +69,14 @@ To avoid high power consumption, increase in delays and a huge number of transit
 
 With the help of these structures, each flop in the clock tree gets the clock connection. During the optimization, tools insert the buffer to build the CTS structure. Different clock structures will build the clock tree with a minimum buffer insertion and lower power consumption of chips.
 
-###### 9)Routing:
+**9)Routing:**
 There are two  types of routing in ASIC design flow
 1)Global Routing: It calculates estimated Values for each net by the delays of fan-out f wire. Global routing is mainly divided into line routing and maze routing.
 2)Detailed Routing: It detailed routing, the actual delays of wire is calculated by various optimization, clock tree synthesis etc….
 As we are moving towards a lower technology node, engineers face complex design challenges with the need for implanting millions of gates in a small area. In order to make this ASIC design routable, placement density range needs to be followed for better QoR. Placement density analysis is an important parameter to get better outcomes with less number of iterations.
 
-###### 10)Final Verification (Physical Verification & Timing)
+**10)Final Verification (Physical Verification & Timing)**
+
 After routing, ASIC design layout undergoes three steps of physical verification, known as sign off checks. This stage helps to check whether  the layout working the way it was designed to. The following  checks are followed to avoid any errors just before the tape out.
 
 1)Layout Versus Schematic(LVS): is a process of checking hat the geometry/layout matches the schematic /netlist.
@@ -84,7 +85,8 @@ After routing, ASIC design layout undergoes three steps of physical verification
 
 3)Logical Equivalence Check(LVC): is a process of equivalence check between pre and post design layout.
 
-###### 11) GDSII Graphical Data stream information interchange
+**11) GDSII Graphical Data stream information interchange**
+
 In the last stage of the tape out, the engineer performs wafer processing, packaging, testing verification and delivery to the physical IC. GDSII is the file produced and used by the semiconductor foundries to fabricate the silicon and handled to client.
 
 
