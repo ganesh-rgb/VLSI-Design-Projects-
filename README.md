@@ -41,7 +41,7 @@ ASIC design is complex enough at different stages of the design cycle. Telling t
 
 •	Memory BIST (Built-in Self-Test):  In the lower technology node, chip memory requires lower area a fast access time. MBIST is a device which is used to check RAMs. It is a comprehensive solution to memory testing errors and self-repair proficiencies.
 
-•	APTG(Automatic Test Pattern Generation): APTG is a method of creating test vector/sequential input patterns to check the design for faults generated within various elements of circuit.
+•	ATPG(Automatic Test Pattern Generation): ATPG is a method of creating test vector/sequential input patterns to check the design for faults generated within various elements of circuit.
 
 **6)Floor Planning(Blueprint of chip):**
 
